@@ -1,0 +1,22 @@
+body {
+    background-color: #030A31;
+}
+
+a:-webkit-any-link {
+    text-decoration:none;
+}
+
+input:focus-visible {
+    outline: none;
+  }
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.create-badge {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}

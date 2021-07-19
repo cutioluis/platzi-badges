@@ -1,0 +1,81 @@
+
+.platzi-badge {
+  max-width: 400px;
+  background-color: #030b36;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.5);
+  border-radius: 37px;
+  height: auto;
+  width: auto;
+}
+
+.badge__conf {
+  display: flex;
+  border-radius: 37px 37px 0px 0px;
+  justify-content: center;
+  background: #99c93f;
+}
+
+.badge__rigth {
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.badge__cof-img {
+  margin: 20px; 
+}
+
+
+.badge__rigth-name {
+  margin: 5px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 99%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.badge__rigth-profesion {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 99%;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.badge__rigth-twitter {
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.badge__rigth-twitter:hover {
+  cursor: pointer;
+}
+
+.badge__mid {
+  padding: 10px 30px;
+}
+
+.badge__mid-presentation {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 99%;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+}
+
+.badge__mid-conf {
+  margin: 40px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2BAEFF;
+}
