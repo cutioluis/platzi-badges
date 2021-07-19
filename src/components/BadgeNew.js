@@ -1,30 +1,73 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/BadgeNew.css";
 
 const BadgeNew = () => {
+  const [form, setValues] = useState({
+    name: "",
+  });
 
- const handleChange = e => {
-    console.log({
-      name: e.target.namee,
-      value: e.target.value});
-  }
-  
-  const handleClick = () => {
-    console.log('Button was Clicked');
-  }
+  const handleInput = (event) => {
+    setValues({
+      ...form,
+      [event.target.name]: event.target.value,
+    });
+  };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(form);
+  };
 
   return (
     <section className="platzi-form">
       <h2 className="form__title">New Attendant</h2>
       <form action="">
-        <label htmlFor="">
+        <label action="" onSubmit={handleSubmit}>
           <span className="form__span">First Name</span>
           <br />
-          <input onChange={handleChange} className="form__input" type="text" placeholder="Your Name Her" />
+          <input
+            className="form__input"
+            type="text"
+            id="name"
+            name="name"
+            onChange={handleInput}
+            placeholder="Name"
+          />
+        </label>
+        <label action="" onSubmit={handleSubmit}>
+          <br />
+          <span className="form__span">Last Name</span>
+          <br />
+          <input
+            className="form__input"
+            type="text"
+            id="name2"
+            name="name2"
+            onChange={handleInput}
+            placeholder="Last Name"
+          />
+        </label>
+        <label action="" onSubmit={handleSubmit}>
+          <br />
+          <span className="form__span">Twitter</span>
+          <br />
+          <input
+            className="form__input"
+            type="text"
+            id="twitter"
+            name="twitter"
+            onChange={handleInput}
+            placeholder="@sparragus"
+          />
         </label>
         <br />
-        <button type="button" onClick={handleClick} className="form__input-btn">Save</button>
+        <button
+          type="button"
+          onClick={handleSubmit}
+          className="form__input-btn"
+        >
+          Save
+        </button>
       </form>
     </section>
   );
