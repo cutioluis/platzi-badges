@@ -22,6 +22,7 @@ const Badge = (props) => {
             {props.name}
           </h3>
           <span className="badge__rigth-profesion">{props.profession}</span>
+          <br />
           <img
             className="badge__rigth-twitter"
             src={TwitterIcon}

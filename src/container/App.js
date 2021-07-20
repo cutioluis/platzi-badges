@@ -13,7 +13,7 @@ function App() {
       <div className="create-badge">
         <Badge
           name="Luis Cutiopala"
-          profession="Frontend Engineer"
+          profession=" Developer"
           conf="#platziconf"
         />
         <BadgeNew />
