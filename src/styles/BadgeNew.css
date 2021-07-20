@@ -23,14 +23,14 @@
 }
 
 .form__input {
-  margin: 10px 0;
-  border-radius: 10px;
-  padding: 15px;
-  height: 20px;
-  width: 250px;
-  border: 1px solid #637b9d;
-  background: #03091e;
-  color: #c3deef;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 15px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid #637b9d;
+    background: #03091e;
+    color: #C3DEEF;
 }
 
 .form__input::placeholder {
@@ -38,26 +38,36 @@
 }
 
 .form__input:focus {
-  border: 1px solid #2baeff;
+  border: 1px solid #2BAEFF;
   transition: 150ms;
-  background: none;
+  background:none;
 }
 
 .form__input-btn {
-  margin: 10px 0;
-  border: none;
-  font-size: 18px;
-  width: 124px;
-  height: 50px;
-  left: 729px;
-  top: 401px;
-  color: white;
-  background: #99c93f;
-  border-radius: 10px;
+    margin: 10px 0;
+    border: none;
+    font-size: 18px;
+    width: 124px;
+    height: 50px;
+    left: 729px;
+    top: 401px;
+    color: white;
+    background: #99C93F;
+    border-radius: 10px;
 }
 
 .form__input-btn:hover {
-  cursor: pointer;
-  transition: 150ms;
-  box-shadow: 0px 1px 15px 5px rgba(153, 201, 63, 0.25);
+  cursor:pointer;
+    transition: 150ms;
+    box-shadow: 0px 1px 15px 5px rgba(153, 201, 63, 0.25);
+}
+
+.tw1 {
+  width: 14px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.tw2 {
+  width: 204px;
+  border-radius: 0px 10px 10px 0px;
 }

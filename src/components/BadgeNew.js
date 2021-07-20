@@ -51,8 +51,9 @@ const BadgeNew = () => {
           <br />
           <span className="form__span">Twitter</span>
           <br />
+          <input className="form__input tw1" type="text" value="@" />
           <input
-            className="form__input"
+            className="form__input tw2"
             type="text"
             id="name2"
             name="name2"

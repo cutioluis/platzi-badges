@@ -18,21 +18,23 @@ const Badge = (props) => {
       <div className="badge__rigth">
         <img className="badge__cof-img" src={User} alt="" />
         <div>
-          <h3 ti="About Name" className="badge__rigth-name">{props.name}</h3>
+          <h3 className="badge__rigth-name">
+            {props.name}
+          </h3>
           <span className="badge__rigth-profesion">Frontend Engineer</span>
           <img
             className="badge__rigth-twitter"
             src={TwitterIcon}
             alt="Twitter "
           />
-        </div>
+        </div> 
       </div>
       <div className="badge__mid">
         <p className="badge__mid-presentation">
           Hoy hablaremos soebre react el framework mas popular de todo el mundo
           para Desarrollo Web
         </p>
-        <p className="badge__mid-conf">#platziconf</p>
+          <p className="badge__mid-conf">#platziconf</p>
       </div>
     </div>
   );
