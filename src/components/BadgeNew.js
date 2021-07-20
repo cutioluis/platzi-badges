@@ -58,7 +58,7 @@ const BadgeNew = () => {
             id="name2"
             name="name2"
             onChange={handleInput}
-            placeholder="@sparragus"
+            placeholder="sparragus"
           />
         </label>
         <br />
