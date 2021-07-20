@@ -1,7 +1,6 @@
 # 💚 PLATZI BADGES 💚
 [![img](https://raw.githubusercontent.com/cutioluis/platzi-badges/master/src/assets/static/banner2.png "img")](https://raw.githubusercontent.com/cutioluis/platzi-badges/master/src/assets/static/banner2.png "img")
 Proyecto de curso de React de [@Platzi](http://platzi.com "@Platzi") donde aprenderas a crear los badges de Platzi Conf
-< br />
 Profesor : @sparragus
 ## Comenzando 🚀
 ### `npm start`
