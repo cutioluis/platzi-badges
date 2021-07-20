@@ -54,8 +54,8 @@ const BadgeNew = () => {
           <input
             className="form__input"
             type="text"
-            id="twitter"
-            name="twitter"
+            id="name2"
+            name="name2"
             onChange={handleInput}
             placeholder="@sparragus"
           />

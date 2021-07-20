@@ -11,7 +11,9 @@ function App() {
        <Navbar/>
       </div>
       <div className="create-badge">
-        <Badge />
+        <Badge
+          name="Luis Cutiopala"
+        />
         <BadgeNew />
       </div>
     </div>
